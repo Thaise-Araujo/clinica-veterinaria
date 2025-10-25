@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Veterinária PetCare</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🐾 Clínica Veterinária PetCare</h1>
+            <p class="subtitle">Sistema profissional de gestão veterinária</p>
+        </header>
+        
+        <div class="cards-info">
+            <div class="card">
+                <h3>Animais Cadastrados</h3>
+                <div class="numero" id="total-animais">0</div>
+            </div>
+            <div class="card">
+                <h3>Serviços Hoje</h3>
+                <div class="numero" id="total-servicos">0</div>
+            </div>
+            <div class="card">
+                <h3>Vacinados</h3>
+                <div class="numero" id="total-vacinados">0</div>
+            </div>
+        </div>
+        
+        <div class="area-resultados" id="resultado">
+            <h3>Bem-vindo à Clínica PetCare</h3>
+            <p>Selecione uma opção abaixo para gerenciar o sistema.</p>
+        </div>
+        
+        <div class="botoes">
+            <button onclick="mostrarTipos()">📋 Tipos TypeScript</button>
+            <button onclick="mostrarAnimais()">🐕 Exemplos Animais</button>
+            <button onclick="testarFuncoes()">⚙️ Testar Funções</button>
+            <button onclick="mostrarErros()">🚨 Ver Erros</button>
+            <button onclick="cadastrarAnimal()">➕ Cadastrar Animal</button>
+            <button onclick="mostrarServicos()">📅 Serviços</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
